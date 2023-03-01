@@ -1,6 +1,20 @@
 body {
-  background-color: #475A66;
+  background-color: #475a66;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Ubuntu', sans-serif;}
+  font-family: "Ubuntu", sans-serif;
+}
+
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  width: 22em;
+  height: 30em;
+  background-color: #5eb2ea;
+  margin: 2.2em 0;
+  border-radius: .8em;
+}

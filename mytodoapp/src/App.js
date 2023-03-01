@@ -1,11 +1,12 @@
 import "./App.css";
-import TodoContainer from "./Components/UI/TodoContainer";
+import AddTodo from "./Components/Header/AddTodo";
 
 function App() {
-
-  return <div className="App">
-    <TodoContainer />
-  </div>;
+  return (
+    <div className="todoContainer">
+      <AddTodo />
+    </div>
+  );
 }
 
 export default App;

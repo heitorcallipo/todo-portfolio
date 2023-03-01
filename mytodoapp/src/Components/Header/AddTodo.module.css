@@ -26,3 +26,15 @@
     color: #f1f1f1;
     font-family: "ubuntu", sans-serif;
 }
+
+.todoList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5em;
+    border: none;
+    border-radius: .5em;
+    background-color: #a2cbe6;
+    width: 20em;
+    margin-top: .8em;
+}
