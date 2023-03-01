@@ -1,14 +1,18 @@
-import styles from "TodoList.module.css"
-import { useState } from "react"
+import styles from "./TodoList.module.css";
+import Checkbox from "@mui/material/Checkbox";
+import DeleteIcon from "@mui/icons-material/Delete";
+import { useState } from "react";
 
-const TodoList = () => {
+const TodoList = (props) => {
+  return (
+    <main>
+      <div className={styles.todoList}>
+        <Checkbox />
+        <p>asdasd</p>
+        <DeleteIcon />
+      </div>
+    </main>
+  );
+};
 
-
-    return (
-        <main>
-            
-        </main>
-    )
-}
-
-export default TodoList
+export default TodoList;

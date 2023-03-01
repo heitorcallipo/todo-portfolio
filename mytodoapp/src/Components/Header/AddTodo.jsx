@@ -5,14 +5,23 @@ const AddTodo = () => {
   const [task, setTask] = useState("");
 
   const handleChange = (event) => {
-    setTask(event.target.value)
-  }
+    setTask(event.target.value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  };
 
   return (
     <div className={styles.addTodo}>
-      <form>
+      <form onSubmit={handleSubmit}>
         <h1>Todo List</h1>
-        <input type="text" placeholder="Add the task..." onChange={handleChange} value={task}/>
+        <input
+          type="text"
+          placeholder="Add the task..."
+          onChange={handleChange}
+          value={task}
+        />
         <button>Add</button>
       </form>
     </div>
