@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
+
 body {
   background-color: #475a66;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Manjari", sans-serif;
 }
 
 .todoContainer {

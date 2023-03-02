@@ -1,40 +1,28 @@
 .addTodo h1 {
-    font-size: 2.5em;
+  font-size: 2.5em;
 }
 
 .addTodo input {
-    width: 18em;
-    padding: 1em;
-    border: none;
-    background-color: #294E66;
-    border-radius: .5em;
+  width: 18em;
+  padding: 1em;
+  border: none;
+  background-color: #294e66;
+  border-radius: 0.5em;
 }
 
 .addTodo input::placeholder {
-    color: #f1f1f1;
-    font-size: 1.3em;
-    font-family: "ubuntu", sans-serif;
+  color: #f1f1f1;
+  font-size: 1.3em;
+  font-family: "Manjari", sans-serif;
 }
 
 .addTodo button {
-    width: 4.3em;
-    padding: 1em;
-    margin-left: .2em;
-    background-color: #294E66;
-    border-radius: .5em;
-    border: none;
-    color: #f1f1f1;
-    font-family: "ubuntu", sans-serif;
-}
-
-.todoList {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 5em;
-    border: none;
-    border-radius: .5em;
-    background-color: #a2cbe6;
-    width: 20em;
-    margin-top: .8em;
+  width: 4.3em;
+  padding: 1em;
+  margin-left: 0.2em;
+  background-color: #294e66;
+  border-radius: 0.5em;
+  border: none;
+  color: #f1f1f1;
+  font-family: "Manjari", sans-serif;
 }
